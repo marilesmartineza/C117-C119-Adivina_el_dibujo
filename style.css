@@ -1,0 +1,71 @@
+body
+{
+  font-family: 'Indie Flower', cursive;
+  background-color:rgb(97, 193, 150);
+}
+
+/*#fbd139*/
+
+h1
+{
+  font-family: 'Creepster'; 
+  color:rgb(41, 137, 94);
+  background-color: cornsilk;
+} 
+
+#show_sketch
+{
+  float:right;
+  margin-top: 4px;
+  margin-right: 20px;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 150px; 
+    animation-iteration-count: infinite;
+    
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px rgb(21, 154, 231);}
+  to {box-shadow: 1px 1px 38px rgb(55, 0, 255);}
+
+}
+
+#label,#confidence {
+  background-color: white;
+  width: 20%;
+}
+
+.btn-success:hover {
+  background-color: rgb(83, 207, 99);
+}
+
+.btn-danger:hover {
+  background-color: rgb(236, 142, 47);
+}
+
+p {
+    padding-top:10px;
+    font-size:25px;
+    
+  }
+
+  .copy_right_footer {
+    position: fixed;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    width: 20%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    box-shadow: 10px 10px 5px  rgb(45, 91, 70);
+    background-color: rgb(7, 156, 89);
+    line-height:  2;
+    text-align: center;
+ }
